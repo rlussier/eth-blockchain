@@ -1,0 +1,25 @@
+{
+  "name": "eth-blockchain",
+  "version": "1.0.0",
+  "description": "Blockchain app by Ethereum",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"error: no test specified\" && sexit 1"
+  },
+  "author": "rlussier",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "4.4.1",
+    "chai": "4.2.0",
+    "chai-as-promised": "7.1.1",
+    "chai-bignumber": "3.0.0",
+    "lite-server": "2.5.4",
+    "nodemon": "2.0.4",
+    "truffle": "5.1.41",
+    "truffle-contract": "4.0.31"
+  }
+}
